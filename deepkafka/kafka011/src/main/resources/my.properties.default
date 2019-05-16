@@ -1,0 +1,23 @@
+# kafka
+bootstrap.servers=localhost:9092
+producerbytetopic=bytetest
+consumerbytetopic=bytetest
+produceravrotopic=avrotest
+consumeravrotopic=avrotest
+kafka.consumer.group.id=avrokafka
+kafka.zookeeper.connect=localhost:2181/kafka011
+kafka.schema.registry.url=http://localhost:8081
+
+# storm
+kafkaspouttopic=avrotest
+kafkabolttopic=avrobolttest
+storm.group.id=avrostorm
+
+# spark
+sparksourcetopic=avrotest
+spark.group.id=avrospark
+
+# kafka streams
+streamssourcetopic=avrotest
+streamstargettopic=avrosinktest
+streams.application.id=avrostreams

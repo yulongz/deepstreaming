@@ -1,0 +1,12 @@
+# kafka
+bootstrap.servers=172.16.13.31:9092,172.16.13.32:9092,172.16.13.33:9092
+sourcetopic=zyl-orgtopc-miss
+group.id=zyltest
+kafka.zookeeper.connect=hadoop001:2181,hadoop002:2181,hadoop003:2181/kafka011
+druidtopic=zyl-wotopc
+
+
+# hbase
+hbase.zookeeper.quorum=172.16.13.81
+hbase.zookeeper.property.clientPort=2181
+mapping.table=bonc-dictb

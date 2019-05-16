@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="deepavro" />
+        <module name="deepflume" />
+        <module name="flink13" />
+        <module name="ignite23" />
+        <module name="kafka010" />
+        <module name="kafka011" />
+        <module name="kafka08" />
+        <module name="spark16" />
+        <module name="spark22" />
+        <module name="storm10" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="deepavro" target="1.8" />
+      <module name="deepflink" target="1.8" />
+      <module name="deepflume" target="1.8" />
+      <module name="deepignite" target="1.8" />
+      <module name="deepkafka" target="1.8" />
+      <module name="deepspark" target="1.8" />
+      <module name="deepstorm" target="1.8" />
+      <module name="deepstreaming" target="1.8" />
+      <module name="flink13" target="1.8" />
+      <module name="ignite23" target="1.8" />
+      <module name="kafka010" target="1.8" />
+      <module name="kafka011" target="1.8" />
+      <module name="kafka08" target="1.8" />
+      <module name="spark16" target="1.8" />
+      <module name="spark22" target="1.8" />
+      <module name="storm10" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
