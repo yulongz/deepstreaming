@@ -14,19 +14,20 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <storm.version>1.1.3</storm.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-core</artifactId>
-            <version>1.0.2</version>
+            <version>${storm.version}</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-kafka</artifactId>
-            <version>1.0.2</version>
+            <version>${storm.version}</version>
         </dependency>
 
         <!-- <dependency> <groupId>org.apache.storm</groupId> <artifactId>storm-kafka-client</artifactId>
@@ -47,13 +48,13 @@
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-redis</artifactId>
-            <version>1.0.2</version>
+            <version>${storm.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-hbase</artifactId>
-            <version>1.0.2</version>
+            <version>${storm.version}</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->

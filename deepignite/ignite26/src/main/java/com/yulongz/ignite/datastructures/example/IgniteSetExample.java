@@ -184,7 +184,7 @@ public class IgniteSetExample {
             UUID locId = Ignition.ignite().cluster().localNode().id();
 
             for (int i = 0; i < 5; i++) {
-                String item = locId + "_" + Integer.toString(i);
+                String item = locId + "_" + i;
 
                 set.add(item);
 

@@ -22,7 +22,7 @@ import java.util.Random;
 public class StreamTransformerDemo {
     public static void main(String[] args) {
         Random random = new Random();
-        try (Ignite ignite = Ignition.start("default-config.xml");){
+        try (Ignite ignite = Ignition.start("default-config.xml")){
             CacheConfiguration<Integer, Long> cacheCfg = new CacheConfiguration("randomNumbers");
             cacheCfg.setIndexedTypes(Integer.class, Long.class);
 

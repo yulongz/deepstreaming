@@ -186,7 +186,7 @@ public class IgniteQueueExample {
                 UUID locId = Ignition.ignite().cluster().localNode().id();
 
                 for (int i = 0; i < RETRIES; i++) {
-                    String item = locId + "_" + Integer.toString(i);
+                    String item = locId + "_" + i;
 
                     queue.put(item);
 

@@ -99,7 +99,7 @@ public class IgniteQueueDemo {
         public void run() {
             if (put) {
                 for (int i=0;i<RETRIES;i++){
-                    String item = Ignition.ignite().cluster().localNode().id()+"_"+Integer.toString(i);
+                    String item = Ignition.ignite().cluster().localNode().id()+"_"+ i;
                     queue.put(item);
                     System.out.println(item);
                 }
